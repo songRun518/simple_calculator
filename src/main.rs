@@ -4,7 +4,7 @@ use simple_calculator::Calculator;
 
 fn main() -> Result<(), Box<dyn Error>> {
     loop {
-        print!(">>> ");
+        print!("> ");
         std::io::stdout().flush()?;
 
         let mut input = String::new();
