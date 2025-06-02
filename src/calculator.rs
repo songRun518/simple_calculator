@@ -82,7 +82,7 @@ impl Calculator {
                     self.pos += 1;
                     result -= self.parse_term();
                 }
-                Token::Invalid(c) => panic!("Unexpected token: {}", c), // 新增对Invalid的处理
+                Token::Invalid(c) => panic!("Unexpected token: {}", c),
                 _ => break,
             }
         }
@@ -107,7 +107,7 @@ impl Calculator {
                     self.pos += 1;
                     result %= self.parse_factor();
                 }
-                Token::Invalid(c) => panic!("Unexpected token: {}", c), // 新增对Invalid的处理
+                Token::Invalid(c) => panic!("Unexpected token: {}", c),
                 _ => break,
             }
         }
@@ -138,7 +138,7 @@ impl Calculator {
                 self.pos += 1;
                 -self.parse_factor()
             }
-            Token::Invalid(c) => panic!("Unexpected token: {}", c), // 专门处理无效字符
+            Token::Invalid(c) => panic!("Unexpected token: {}", c),
             _ => panic!("Unexpected token: {:?}", self.tokens[self.pos]),
         }
     }
