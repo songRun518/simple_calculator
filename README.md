@@ -1,9 +1,9 @@
-# Simple Calculator  
+# Simple Calculator
 
-`simple_calculator` is a simple command-line calculator program written in Rust. It supports basic mathematical operations, including addition, subtraction, multiplication, division, and modulo, as well as operations with parentheses, negative numbers, and decimals.  
+`simple_calculator` 是一个用 Rust 编写的简单命令行计算器程序。它支持基本的数学运算，包括加法、减法、乘法、除法、取模，同时支持括号和负数、小数的运算。
 
-## Features  
-- **Basic Operations**: Supports addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), and modulo (`%`).  
-- **Operator Precedence**: Follows standard mathematical operator precedence rules.  
-- **Parentheses Support**: Allows the use of parentheses to change the order of operations.  
-- **Negative Numbers and Decimals**: Supports operations with negative numbers and decimals.
+## 特性
+- **基本运算**：支持加 (`+`)、减 (`-`)、乘 (`*`)、除 (`/`) 和取模 (`%`) 运算。
+- **运算符优先级**：遵循标准的数学运算符优先级规则。
+- **括号支持**：支持使用括号来改变运算顺序。
+- **负数和小数**：支持负数和小数的运算。
