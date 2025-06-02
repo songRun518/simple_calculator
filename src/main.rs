@@ -11,6 +11,6 @@ fn main() -> Result<(), Box<dyn Error>> {
         std::io::stdin().read_line(&mut input)?;
 
         let mut calculator = Calculator::new(input);
-        println!("{}", calculator.calculate());
+        println!("{}", calculator.calculate().unwrap());
     }
 }
